@@ -2,7 +2,7 @@
 const express = require("express");
 const cors = require("cors"); // cors for security-purpose it allows to connect this app with other apps!!
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8000; // to make cloud(heroku) use the server
 const app = express(); // server created
 app.use(cors());        // using cors
 
