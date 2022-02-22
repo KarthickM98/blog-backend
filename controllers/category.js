@@ -1,4 +1,5 @@
-const getData = (req, res) => {   // controller has the logics and codes
+const getData = (req, res) => {
+  // controller has the logics and codes
   // console.log(req.params, req.params.category, req.params.id, req.query);
   const data = [
     {
@@ -12,6 +13,7 @@ const getData = (req, res) => {   // controller has the logics and codes
         "https://www.scotsman.com/webimg/b25lY21zOmJlYzMzOTM4LTJiNWMtNDMwMy05NTQ1LWRjZWNiZmYzYWM1ZjpmZmI1YzNjOC05YmU0LTRhZTYtOTE5Yy1iMTg4ZmFhNmNmYzg=.jpg?width=2048&enable=upscale",
       content:
         "With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero. When Peter asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+      tags: ["React", "Javascript", "Animation"],
     },
     {
       id: "2",
@@ -24,6 +26,7 @@ const getData = (req, res) => {   // controller has the logics and codes
         "https://images.thedirect.com/media/article_full/doctor-strange-2-mcu-filming.jpg",
       content:
         "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum at leo at iaculis.",
+        tags: ["React", "Javascript", "Animation"],
     },
     {
       id: "3",
@@ -32,6 +35,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Travel",
       date: "August 21 2017",
       author: "Nikari Sharma",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpfRIwkwnuI-sL43pnNVNDqMtE6wv1c9VC-zJB06NO5jjp7iTl2-9twqhqthByFfK5fho&usqp=CAU",
       content:
@@ -44,6 +48,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Travel",
       date: "August 21 2017",
       author: "Nikari Sharma",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://justglobetrotting.com/wp-content/uploads/2018/04/how-to-start-travel-blog.jpg",
       content:
@@ -56,6 +61,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Travel",
       date: "August 21 2017",
       author: "Nikari Sharma",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://www.treehugger.com/thmb/QolJfOYFmxwIH6Sxv5SBqY8Kq-M=/1885x1414/smart/filters:no_upscale()/GettyImages-1273584292-cbcd5f85f4c646d58f7a7fa158dcaaeb.jpg",
       content:
@@ -68,6 +74,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Travel",
       date: "August 21 2017",
       author: "Nikari Sharma",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://static.toiimg.com/thumb/msid-79510927,width-900,height-1200,resizemode-6.cms",
       content:
@@ -80,6 +87,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Travel",
       date: "August 21 2017",
       author: "Nikari Sharma",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://image.shutterstock.com/image-photo/forest-road-on-cloudy-day-260nw-1960786579.jpg",
       content:
@@ -92,6 +100,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Travel",
       date: "August 21 2017",
       author: "Rahul Rattan",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDs7t68P1t9wNALdy805hfMr1U1-Mz6dJnMg&usqp=CAU",
       content:
@@ -104,6 +113,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Bollywood",
       date: "August 21 2017",
       author: "Rahul Rattan",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://image.shutterstock.com/image-vector/bollywood-word-on-gradient-background-260nw-1443999785.jpg",
       content:
@@ -116,6 +126,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Bollywood",
       date: "August 21 2017",
       author: "Rahul Rattan",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://images.hindustantimes.com/img/2022/02/03/550x309/ANI-20211212002-0_1640114127389_1643883197969.jpg",
       content:
@@ -128,6 +139,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Bollywood",
       date: "August 21 2017",
       author: "Rahul Rattan",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://images.hindustantimes.com/img/2022/02/03/150x84/b999811a-84df-11ec-addc-808998e53739_1643885883958.jpg",
       content:
@@ -140,6 +152,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Bollywood",
       date: "August 21 2017",
       author: "Ritika Hedge",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://img.studioflicks.com/wp-content/uploads/2020/02/15123643/Ritika-Singhs-special-certificate-for-Ashok-Selvan.jpg",
       content:
@@ -152,6 +165,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Bollywood",
       date: "August 21 2017",
       author: "Ritika Hedge",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://timesofindia.indiatimes.com/thumb/msid-75609340,width-800,height-600,resizemode-4/75609340.jpg?imglength=82484",
       content:
@@ -164,6 +178,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Hollywood",
       date: "August 21 2017",
       author: "Ritika Hedge",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://media.newyorker.com/photos/5d3c802a35c964000896ae60/1:1/w_1706,h_1706,c_limit/Brody-TarantinoHollywood.jpg",
       content:
@@ -176,6 +191,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Hollywood",
       date: "August 21 2017",
       author: "Ritika Hedge",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://www.koimoi.com/wp-content/new-galleries/2021/01/from-mad-max-fury-road-to-1917-a-look-at-10-must-watch-hollywood-movies-of-the-last-10-years-0001.jpg",
       content:
@@ -188,6 +204,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Hollywood",
       date: "August 21 2017",
       author: "Ritika Hedge",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://1.bp.blogspot.com/-2JTjxKGtEIE/XTgGNaodMVI/AAAAAAAAS3E/UAQ4nx9eiWcxUd5GbXTI-BNfrVT0XGRgACLcBGAs/s640/captain%2Bmarvel.JPG",
       content:
@@ -200,6 +217,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Hollywood",
       date: "August 21 2017",
       author: "Steve Murray",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://img.republicworld.com/republic-prod/stories/images/xxhdpi/aflifh6ao5w1u1bk_1639573138.jpeg",
       content:
@@ -212,6 +230,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Hollywood",
       date: "August 21 2017",
       author: "Gagan Singh",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://filmfare.wwmindia.com/content/2021/aug/hollywoodmoviesyoucantmiss11630327835.jpg",
       content:
@@ -224,6 +243,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Hollywood",
       date: "August 21 2017",
       author: "Gagan Singh",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://www.bollywoodhungama.com/wp-content/uploads/2020/04/Hollywood-movies-have-amassed-only-Rs.-50-crores-at-the-India-box-office-in-the-first-quarter-of-2020.jpg",
       content:
@@ -236,6 +256,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Hollywood",
       date: "August 21 2017",
       author: "Gagan Singh",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQubAUOPoCA0tRK7-t7e0hCujgTHzBpZFK0Aw&usqp=CAU",
       content:
@@ -248,6 +269,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Technology",
       date: "August 21 2017",
       author: "Gagan Singh",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://internationaldirector.com/wp-content/uploads/2018/10/Apple-Silicon-Valley.jpg",
       content:
@@ -260,6 +282,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Technology",
       date: "August 21 2017",
       author: "Gagan Singh",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToQYf8Fk5fN_QOM_kOHH8PcXVpbVX6veU_H7Tm62baDuWtMenA9BnJfVskp8fDt3vPuOs&usqp=CAU",
       content:
@@ -272,6 +295,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Technology",
       date: "August 21 2017",
       author: "Gagan Singh",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://img.theepochtimes.com/assets/uploads/2020/10/26/Big-tech-700x420.jpg",
       content:
@@ -284,6 +308,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Technology",
       date: "August 21 2017",
       author: "Gagan Singh",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXeSEB3t6AmjeDlMSlzBtNRfLDRKyfrWo4eQ&usqp=CAU",
       content:
@@ -296,6 +321,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Fitness",
       date: "August 21 2017",
       author: "Gagan Singh",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/man-deadlift-1296x728-header.jpg?w=1155&h=1528",
       content:
@@ -308,6 +334,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Fitness",
       date: "August 21 2017",
       author: "Gagan Singh",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCt6-337nd7-6j0WgHEe8PQkab8AeqiEoSJTHehFBd-O0efxyscHMGXKynk-3zMByUEWA&usqp=CAU",
       content:
@@ -320,6 +347,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Fitness",
       date: "August 21 2017",
       author: "Manish Agarwal",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5008.jpg?size=626&ext=jpg&ga=GA1.1.2043781874.1643241600",
       content:
@@ -332,6 +360,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Fitness",
       date: "August 21 2017",
       author: "Manish Agarwal",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://contents.mediadecathlon.com/s853520/k$e3afc7662b2d5122b8a8df099509565d/origami%20domyos%20hp%20domyos%20short%20fit%20%20500%20reg%20gym%20noir%20%20%20008%20%20%20%20%20expires%20on%2013%2008%202024.jpg",
       content:
@@ -344,6 +373,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Food",
       date: "August 21 2017",
       author: "Manish Agarwal",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwS_Kino7HS65tPFjQ4HFAEBuS0oUuUcM7iMuQS--UCBwUw8LI5V7LULSiZQlNrmb1AyE&usqp=CAU",
       content:
@@ -356,6 +386,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Food",
       date: "August 21 2017",
       author: "Manish Agarwal",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://www.adorama.com/alc/wp-content/uploads/2018/02/BBBURGER8-1024x683-1024x683.jpg",
       content:
@@ -368,6 +399,7 @@ const getData = (req, res) => {   // controller has the logics and codes
       category: "Food",
       date: "August 21 2017",
       author: "Manish Agarwal",
+      tags: ["React", "Javascript", "Animation"],
       image:
         "https://media.istockphoto.com/photos/varied-food-carbohydrates-protein-vegetables-fruits-dairy-legumes-on-picture-id1218254547?b=1&k=20&m=1218254547&s=170667a&w=0&h=mOEC7x7qU5NC78mCULs-jAPeLkxy8opOvIbGSnwmAyw=",
       content:
@@ -381,9 +413,10 @@ const getData = (req, res) => {   // controller has the logics and codes
       date: "August 21 2017",
       author: "Manish Agarwal",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdnfWLhLUtehyG-hHuTc0duDDX26lpoleK7w&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdnfWLhLUtehyG-hHuTc0duDDX26lpoleK7w&usqp=CAU",
       content:
-        "Good food doesn't have to be complicated. With just a few simple tricks you can save time, money and hassle. From getting the most out of leftover pizza to pimping your mac 'n' cheese and making the perfect poached egg, these handy hacks might just change how you cook and eat forever.",
+      "Good food doesn't have to be complicated. With just a few simple tricks you can save time, money and hassle. From getting the most out of leftover pizza to pimping your mac 'n' cheese and making the perfect poached egg, these handy hacks might just change how you cook and eat forever.",
+      tags: ["React", "Javascript", "Animation"],
     },
     {
       id: "33",
@@ -393,9 +426,10 @@ const getData = (req, res) => {   // controller has the logics and codes
       date: "August 21 2017",
       author: "Manish Agarwal",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-mwEJm_qc8aBE97d9MQa7k_Eczn_k_Om4GIJFZJAE7E92bp4a3XOU4wzsvdeqkXF_ows&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-mwEJm_qc8aBE97d9MQa7k_Eczn_k_Om4GIJFZJAE7E92bp4a3XOU4wzsvdeqkXF_ows&usqp=CAU",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum at leo at iaculis. Fusce vitae velit aliquet nisl malesuada pretium. Maecenas finibus ultricies nisl ut commodo. Nulla ac mi vestibulum, finibus felis eu, sollicitudin diam. Aliquam sagittis tortor eu libero placerat, sed placerat dui consequat. Praesent bibendum est tortor, fringilla luctus magna rutrum vitae. Sed a orci imperdiet, porta enim vel, tristique arcu. Nunc dapibus erat sapien. Ut pharetra, lorem a consequat elementum, lorem odio tempus justo, ac dignissim felis mi et ex. Aliquam luctus nibh vel porttitor semper. Nulla eu ante feugiat, rhoncus arcu nec, consectetur lectus. Etiam urna massa, fermentum at ornare sed, mattis quis nulla. Vestibulum sit amet viverra turpis. Cras suscipit dictum venenatis.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum at leo at iaculis. Fusce vitae velit aliquet nisl malesuada pretium. Maecenas finibus ultricies nisl ut commodo. Nulla ac mi vestibulum, finibus felis eu, sollicitudin diam. Aliquam sagittis tortor eu libero placerat, sed placerat dui consequat. Praesent bibendum est tortor, fringilla luctus magna rutrum vitae. Sed a orci imperdiet, porta enim vel, tristique arcu. Nunc dapibus erat sapien. Ut pharetra, lorem a consequat elementum, lorem odio tempus justo, ac dignissim felis mi et ex. Aliquam luctus nibh vel porttitor semper. Nulla eu ante feugiat, rhoncus arcu nec, consectetur lectus. Etiam urna massa, fermentum at ornare sed, mattis quis nulla. Vestibulum sit amet viverra turpis. Cras suscipit dictum venenatis.",
+      tags: ["React", "Javascript", "Animation"],
     },
     {
       id: "34",
@@ -405,9 +439,10 @@ const getData = (req, res) => {   // controller has the logics and codes
       date: "August 21 2017",
       author: "Manish Agarwal",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03bjrUH-83Fu2m948lvggZmtLO94hdAH49w&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03bjrUH-83Fu2m948lvggZmtLO94hdAH49w&usqp=CAU",
       content:
-        "Nutella Dip  Take some whipping cream and whip it with hand or in a machine, until stiff peaks start forming. In another bowl, mix some cream cheese, powdered sugar and Nutella. Fold the whipping cream in with the cream cheese and nutella mix and serve with different kinds of fruits and chocolate sauce.",
+      "Nutella Dip  Take some whipping cream and whip it with hand or in a machine, until stiff peaks start forming. In another bowl, mix some cream cheese, powdered sugar and Nutella. Fold the whipping cream in with the cream cheese and nutella mix and serve with different kinds of fruits and chocolate sauce.",
+      tags: ["React", "Javascript", "Animation"],
     },
     {
       id: "35",
@@ -417,9 +452,10 @@ const getData = (req, res) => {   // controller has the logics and codes
       date: "August 21 2017",
       author: "Manish Agarwal",
       image:
-        "https://images.unsplash.com/photo-1508682641856-78948a748357?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "https://images.unsplash.com/photo-1508682641856-78948a748357?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum at leo at iaculis. Fusce vitae velit aliquet nisl malesuada pretium. Maecenas finibus ultricies nisl ut commodo. Nulla ac mi vestibulum, finibus felis eu, sollicitudin diam. Aliquam sagittis tortor eu libero placerat, sed placerat dui consequat. Praesent bibendum est tortor, fringilla luctus magna rutrum vitae. Sed a orci imperdiet, porta enim vel, tristique arcu. Nunc dapibus erat sapien. Ut pharetra, lorem a consequat elementum, lorem odio tempus justo, ac dignissim felis mi et ex. Aliquam luctus nibh vel porttitor semper. Nulla eu ante feugiat, rhoncus arcu nec, consectetur lectus. Etiam urna massa, fermentum at ornare sed, mattis quis nulla. Vestibulum sit amet viverra turpis. Cras suscipit dictum venenatis.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum at leo at iaculis. Fusce vitae velit aliquet nisl malesuada pretium. Maecenas finibus ultricies nisl ut commodo. Nulla ac mi vestibulum, finibus felis eu, sollicitudin diam. Aliquam sagittis tortor eu libero placerat, sed placerat dui consequat. Praesent bibendum est tortor, fringilla luctus magna rutrum vitae. Sed a orci imperdiet, porta enim vel, tristique arcu. Nunc dapibus erat sapien. Ut pharetra, lorem a consequat elementum, lorem odio tempus justo, ac dignissim felis mi et ex. Aliquam luctus nibh vel porttitor semper. Nulla eu ante feugiat, rhoncus arcu nec, consectetur lectus. Etiam urna massa, fermentum at ornare sed, mattis quis nulla. Vestibulum sit amet viverra turpis. Cras suscipit dictum venenatis.",
+      tags: ["React", "Javascript", "Animation"],
     },
   ];
   if (req.params.id) {
@@ -427,7 +463,9 @@ const getData = (req, res) => {   // controller has the logics and codes
     res.send(newUser);
     console.log("block1");
   } else if (req.params.category) {
-    const newUser = data.filter((value) => value.category === req.params.category);
+    const newUser = data.filter(
+      (value) => value.category === req.params.category
+    );
     res.send(newUser);
     console.log("block2");
   } else {
