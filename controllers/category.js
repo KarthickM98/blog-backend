@@ -462,12 +462,12 @@ const getData = (req, res) => {
     const newUser = data.filter((value) => value.id === req.params.id); // Number -typecasting
     res.send(newUser);
     console.log("block1");
-  } else if (req.params.category) {
+  } else if (req.query.category) {
     const newUser = data.filter(
-      (value) => value.category === req.params.category
+      (value) => value.category === req.query.category
     );
     res.send(newUser);
-    console.log("block2");
+    console.log("block2",req.query.category);
   } else {
     res.send(data);
     console.log("block3");
